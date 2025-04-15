@@ -1,0 +1,29 @@
+name: capstone
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  
+  - transformers
+  - datasets
+  - accelerate
+  - langchain
+  - chromadb
+  - sentence-transformers
+  - fastapi
+  - uvicorn
+  - python-multipart
+  - pillow
+  - numpy
+  - pandas
+  - jupyter
+  - pip
+  - pip:
+      - openai
+      - bitsandbytes  
